@@ -32,7 +32,7 @@ The project follows a star schema, with a central fact table (`fact_order_produc
 ### Step 2: 🔐 Snowflake Setup
 
 - Created a Snowflake schema named `instacart`.
-- Configured an IAM role for Snowflake to access the S3 bucket.
+- Configured an IAM role in AWS and created Acess keys for Snowflake to access the S3 bucket.
 
 ### Step 3: 🔧 Data Loading and Table Creation
 
