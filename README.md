@@ -18,7 +18,7 @@ This project focuses on implementing a dimensional model for an e-commerce datas
 
 The project follows a star schema, with a central fact table (`fact_order_products`) surrounded by dimension tables. Below is the data model:
 
-![Fact-Dimension Table](fact_dimension_flowchart.png)
+![Fact-Dimension Table](fact-dim_table.png)
 
 ---
 
