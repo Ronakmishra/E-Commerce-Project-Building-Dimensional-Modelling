@@ -1,0 +1,45 @@
+# .gitignore for E-Commerce Project - Building Dimensional Modelling
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+
+# Python-related files
+*.pyc
+__pycache__/
+
+# Node modules
+node_modules/
+
+# SQL backup or temporary files
+*.sql~
+*.bak
+
+# Temporary files and IDE settings
+*.swp
+*.swo
+*.tmp
+.idea/
+.vscode/
+
+# Output or compiled files
+*.out
+*.class
+*.o
+
+# Generated documentation
+*.html
+*.pdf
+
+# AWS credentials (for safety)
+.aws/
+
+# Snowflake config or keys
+snowflake_key.pem
