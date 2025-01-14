@@ -25,20 +25,24 @@ The project follows a star schema, with a central fact table (`fact_order_produc
 ## Workflow
 
 ### Step 1: Data Source
+
 - Dataset:
   - [Kaggle - Instacart Market Basket Analysis](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data)
   - [Google Drive - Instacart Dataset](https://drive.google.com/drive/folders/1XJluibMqtv5Ulw3R7nSqQWXi5e6s5FUQ)
 - Uploaded to an Amazon S3 bucket in the `instacart` folder.
 
 ### Step 2: Snowflake Setup
+
 - Created a Snowflake schema named `instacart`.
 - Configured an IAM role for Snowflake to access the S3 bucket.
 
 ### Step 3: Data Loading and Table Creation
+
 - Raw data was loaded into staging tables in Snowflake.
 - Created fact and dimension tables using SQL scripts.
 
 ### Step 4: Analysis
+
 - Wrote analytical queries to:
   - Identify top-performing products and aisles.
   - Analyze user reorder trends.
@@ -62,3 +66,4 @@ e-commerce-project/
 ├── README.md                        # Project documentation
 ├── fact_dimension_flowchart.png     # Fact-dimension table diagram
 └── LICENSE                          # License file
+```
